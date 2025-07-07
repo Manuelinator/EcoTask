@@ -3,6 +3,7 @@
 Esto es una página para tratar de fomentar el reciclaje mediante objetivos diarios.
 
 Requiere de estas dependencias:
+
 flask  
     
 flask_sqlalchemy  
