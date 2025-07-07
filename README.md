@@ -30,18 +30,21 @@ La estructura del proyecto es la siguiente:
     EcoTasks/
     │
     ├── app/
-    │   └── keras_model/               # Modelo de TensorFlow (SavedModel)
+    │   └── keras_model/                   # Modelo de TensorFlow (SavedModel)
+    !   ├── templates/
+    │   !        ├── home.html
+    │   !        ├── registrarse.html
+    │   !        └── iniciar_sesion.html
+    │   ├── main.py                        # Código principal de la aplicación Flask
+    !   ├── static/
+    │   !        └── profile_pics/         # Fotos de perfil de los usuarios
+    !   !        └── images
+    !   !        └── uploads
     │
-    ├── static/
-    │   └── profile_pics/              # Fotos de perfil de los usuarios
+    ├── instance/
+    │   ├── db.sqlite3                     # Base de datos SQLite
     │
-    ├── templates/
-    │   ├── home.html
-    │   ├── registrarse.html
-    │   └── iniciar_sesion.html
-    │
-    ├── db.sqlite3                     # Base de datos SQLite 
-    ├── main.py                        # Código principal de la aplicación Flask
+    ├── entorno_virtual/
     └── README.md
 
 
