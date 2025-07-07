@@ -3,35 +3,36 @@
 Esto es una página para tratar de fomentar el reciclaje mediante objetivos diarios.
 
 Requiere de estas dependencias:
-flask
-flask_sqlalchemy
-flask_login
-werkzeug
-apscheduler
-pillow
-numpy
-tensorflow
-keras
+    flask
+    flask_sqlalchemy
+    flask_login
+    werkzeug
+    apscheduler
+    pillow
+    numpy
+    tensorflow
+    keras
 
 Idealmente todo esto iría metido en un entorno virtual, pero es opcional.
 La estructura del proyecto es la siguiente:
 
-eco-desafios/
-│
-├── app/
-│   └── keras_model/               # Modelo de TensorFlow (SavedModel)
-│
-├── static/
-│   └── profile_pics/              # Fotos de perfil de los usuarios
-│
-├── templates/
-│   ├── home.html
-│   ├── registrarse.html
-│   └── iniciar_sesion.html
-│
-├── db.sqlite3                     # Base de datos SQLite 
-├── main.py                        # Código principal de la aplicación Flask
-└── README.md
+    EcoTasks/
+    │
+    ├── app/
+    │   └── keras_model/               # Modelo de TensorFlow (SavedModel)
+    │
+    ├── static/
+    │   └── profile_pics/              # Fotos de perfil de los usuarios
+    │
+    ├── templates/
+    │   ├── home.html
+    │   ├── registrarse.html
+    │   └── iniciar_sesion.html
+    │
+    ├── db.sqlite3                     # Base de datos SQLite 
+    ├── main.py                        # Código principal de la aplicación Flask
+    └── README.md
+
 
 Características principales
 
