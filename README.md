@@ -24,6 +24,7 @@ keras
 
 
 Idealmente todo esto iría metido en un entorno virtual, pero es opcional.
+
 La estructura del proyecto es la siguiente:
 
     EcoTasks/
