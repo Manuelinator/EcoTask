@@ -3,15 +3,24 @@
 Esto es una página para tratar de fomentar el reciclaje mediante objetivos diarios.
 
 Requiere de estas dependencias:
-    flask
-    flask_sqlalchemy
-    flask_login
-    werkzeug
-    apscheduler
-    pillow
-    numpy
-    tensorflow
-    keras
+flask  
+    
+flask_sqlalchemy  
+    
+flask_login
+    
+werkzeug  
+    
+apscheduler  
+    
+pillow  
+    
+numpy  
+    
+tensorflow 
+
+keras  
+
 
 Idealmente todo esto iría metido en un entorno virtual, pero es opcional.
 La estructura del proyecto es la siguiente:
